@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1170px;
+
+  --color-primary: #292a4a;
+  --color-primary-darker: #242546;
+  --color-primary-hover: #383956;
+  --color-accent: #cf9455;
+  --color-accent-hover: #bb864e;
+  --color-gray: #766f66;
+  --color-white: #ffffff;
+
+  --background-image-quote: url("/assets/quoteMark.png");
+
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Playfair Display", serif;
+}
+
+body {
+  @apply font-primary text-primary;
+}
+
+.container {
+  @apply mx-auto max-w-7xl h-full;
+}
+
+.section {
+  @apply py-24 lg:py-32;
+}
+
+.form-control {
+  @apply h-14 w-full pl-4 rounded-sm outline-none font-primary text-sm text-gray focus:ring-1 focus:ring-primary;
+}
+
+.btn {
+  @apply h-14 font-primary font-semibold text-sm tracking-wide rounded-sm w-full flex items-center justify-center uppercase text-white;
+}
+
+.textarea {
+  @apply w-full pl-4 pt-4 rounded-sm outline-none font-primary text-sm text-gray focus:ring-1 focus:ring-primary min-h-32 resize-none;
+}
+
+.active {
+  @apply text-accent-hover;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply bg-[#cf9455];
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  @apply bottom-[30px];
+}
