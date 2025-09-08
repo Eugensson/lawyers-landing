@@ -76,3 +76,27 @@ export const skillList = [
       "Resolve disputes between debtors and creditors, providing effective legal support in loan and credit matters.",
   },
 ];
+
+export const teamList = [
+  {
+    image: "/assets/lawyer1.jpg",
+    name: "Alexander Cooper",
+    position: "Financial & Business Law",
+    description:
+      "Alexander provides expert legal support in financial disputes and business law, ensuring efficient court representation and client protection.",
+  },
+  {
+    image: "/assets/lawyer2.jpg",
+    name: "Valentina Hughes",
+    position: "Family & Labor Law",
+    description:
+      "Valentina assists clients with family and labor law matters, protecting their rights and offering professional guidance in court proceedings.",
+  },
+  {
+    image: "/assets/lawyer3.jpg",
+    name: "Victor Wallace",
+    position: "Criminal & Land Law",
+    description:
+      "Victor handles criminal and land law cases, including property seizure removal, providing thorough legal support and professional representation.",
+  },
+];

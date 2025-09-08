@@ -12,7 +12,7 @@ export const Nav = () => {
               spy
               smooth
               to={href}
-              offset={-120}
+              offset={-40}
               activeClass="active"
               className="cursor-pointer transition-all duration-300 hover:text-accent"
             >

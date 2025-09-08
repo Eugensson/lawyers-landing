@@ -7,7 +7,7 @@ export const Skills = () => {
     <section id="skills" className="section bg-[#f8f3eca1]">
       <div className="container max-w-7xl text-center flex flex-col justify-center items-center gap-8">
         <h2 className="text-5xl font-secondary font-extrabold">What we do</h2>
-        <p className="max-w-[80vw] lg:max-w-[60vw] mx-auto px-6 lg:px-0 mb-10 text-sm md:text-base">
+        <p className="max-w-135 mx-auto px-6 lg:px-0 mb-10 text-sm md:text-base">
           Our law firm provides a wide range of services, including legal
           consulting and court representation. We help resolve complex legal
           issues while ensuring the highest level of professionalism and
