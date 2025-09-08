@@ -37,3 +37,42 @@ export const testimonialList = [
     position: "Entrepreneur",
   },
 ];
+
+export const skillList = [
+  {
+    icon: "/assets/skills/skill2.png",
+    title: "Labor Disputes",
+    description:
+      "Legal support in resolving conflicts between employees and employers, protecting labor rights effectively.",
+  },
+  {
+    icon: "/assets/skills/skill3.png",
+    title: "Property Rights Protection",
+    description:
+      "Protect property owners’ rights using judicial and extrajudicial methods, ensuring secure ownership.",
+  },
+  {
+    icon: "/assets/skills/skill1.png",
+    title: "Property Seizure Removal",
+    description:
+      "Legal help to lift property seizures and restore ownership rights through professional court procedures.",
+  },
+  {
+    icon: "/assets/skills/skill4.png",
+    title: "Tax Disputes",
+    description:
+      "Legal assistance in taxation matters, resolving disputes with tax authorities and protecting client interests.",
+  },
+  {
+    icon: "/assets/skills/skill5.png",
+    title: "Court Representation",
+    description:
+      "Represent clients in court, safeguarding their rights and lawful interests with professional legal support.",
+  },
+  {
+    icon: "/assets/skills/skill6.png",
+    title: "Credit Disputes",
+    description:
+      "Resolve disputes between debtors and creditors, providing effective legal support in loan and credit matters.",
+  },
+];

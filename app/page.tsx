@@ -1,4 +1,5 @@
 import { Banner } from "@/components/banner";
+import { Skills } from "@/components/skills";
 import { Testimonials } from "@/components/testimonials";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <Banner />
       <Testimonials />
+      <Skills />
       <div className="h-1000" />
     </>
   );
