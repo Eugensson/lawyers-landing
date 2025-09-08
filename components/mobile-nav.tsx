@@ -44,6 +44,7 @@ export const MobileNav = () => {
                 offset={-200}
                 activeClass="active"
                 onClick={() => setIsOpen(false)}
+                className="text-xl font-semibold"
               >
                 {name}
               </ScrollLink>

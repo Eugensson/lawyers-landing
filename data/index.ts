@@ -1,3 +1,11 @@
+import {
+  RiFacebookFill,
+  RiInstagramLine,
+  RiLinkedinFill,
+  RiTwitterXFill,
+  RiYoutubeLine,
+} from "react-icons/ri";
+
 export const navLinks = [
   {
     name: "Home",
@@ -98,5 +106,33 @@ export const teamList = [
     position: "Criminal & Land Law",
     description:
       "Victor handles criminal and land law cases, including property seizure removal, providing thorough legal support and professional representation.",
+  },
+];
+
+export const socialList = [
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com",
+    icon: RiFacebookFill,
+  },
+  {
+    label: "TwitterX",
+    href: "https://www.x.com",
+    icon: RiTwitterXFill,
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com",
+    icon: RiInstagramLine,
+  },
+  {
+    label: "Youtube",
+    href: "https://www.youtube.com",
+    icon: RiYoutubeLine,
+  },
+  {
+    label: "Linkedin",
+    href: "https://www.linkedin.com",
+    icon: RiLinkedinFill,
   },
 ];
