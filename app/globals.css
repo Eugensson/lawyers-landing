@@ -34,15 +34,15 @@ body {
 }
 
 .form-control {
-  @apply h-14 w-full pl-4 rounded-sm outline-none font-primary text-sm text-gray focus:ring-1 focus:ring-primary;
+  @apply h-14 w-full pl-4 rounded-sm outline-none font-primary text-sm text-gray bg-white focus:ring-1 focus:ring-primary;
 }
 
 .btn {
-  @apply h-14 font-primary font-semibold text-sm tracking-wide rounded-sm w-full flex items-center justify-center uppercase text-white;
+  @apply h-14 font-primary font-semibold text-sm tracking-wide rounded-sm w-full flex items-center justify-center uppercase text-white cursor-pointer;
 }
 
 .textarea {
-  @apply w-full pl-4 pt-4 rounded-sm outline-none font-primary text-sm text-gray focus:ring-1 focus:ring-primary min-h-32 resize-none;
+  @apply w-full pl-4 pt-4 rounded-sm outline-none font-primary text-sm text-gray bg-white focus:ring-1 focus:ring-primary min-h-32 resize-none;
 }
 
 .active {
